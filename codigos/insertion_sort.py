@@ -3,8 +3,9 @@ decresente = [9,8,7,6,5,4,3,2,1,0]
 nao_ordenados = [5,3,2,4,7,1,0,6,8,9]
 
 def insertion_sort(vetor):
+    length = len(vetor)
     quantidade_trocas = 0
-    for i in range(1, len(vetor)):
+    for i in range(1, length):
         chave = vetor[i]
         j = i - 1
         while j >= 0 and chave < vetor[j]:

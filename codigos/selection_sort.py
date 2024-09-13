@@ -3,10 +3,11 @@ decresente = [9,8,7,6,5,4,3,2,1,0]
 nao_ordenados = [5,3,2,4,7,1,0,6,8,9]
 
 def selection_sort(vetor):
+    length = len(vetor)
     quantidade_torcas = 0
-    for i in range(len(vetor)):
+    for i in range(length):
         menor = i
-        for j in range(i+1, len(vetor)):
+        for j in range(i+1, length):
             if vetor[j] < vetor[menor]:
                 menor = j
                 quantidade_torcas += 1
