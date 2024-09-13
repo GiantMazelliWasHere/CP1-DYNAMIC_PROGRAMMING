@@ -14,9 +14,9 @@ Vetores usados:
 •	Não ordenado - 5, 3, 2, 4, 7, 1, 0, 6, 8, 9.
 Resultados:
 - Insertion Sort:
--- Crescente = 0 trocas;
--- Decrescente = 45 trocas;
--- Não ordenado = 16 trocas.
+Crescente = 0 trocas;
+Decrescente = 45 trocas;
+Não ordenado = 16 trocas.
 - Selection Sort:
 -- Crescente = 0 trocas
 -- Decrescente = 25 trocas;
